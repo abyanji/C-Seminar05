@@ -30,6 +30,6 @@ Console.WriteLine($"[{string.Join(", ", array)}]");
 array2 = NewArray(array, array2);
 if (SIZE % 2 != 0)
 {
-    array2[array2.Length - 1] = array[array.Length / 2 + 1];
+    array2[array2.Length - 1] = array[array.Length / 2];
 }
 Console.WriteLine($"[{string.Join(", ", array2)}]");
